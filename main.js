@@ -1,4 +1,5 @@
- var width=100;
+var width=1200;
+var height=1000;
  var difference=2;
  var interveralID =0;
  //document.getElementById("img1").style.width=width;
@@ -15,10 +16,10 @@
  }
  function expand()
  {
- if(width<200)
+ if(width<1300)
  {
  width = width+difference;
- document.getElementById("imgCON6.png").style.width=width;
+ document.getElementById("img1").style.width=width;
  console.log(width);
  }
  else
@@ -29,7 +30,7 @@
  }
  function shrink()
  {
- if(width>100)
+ if(width>1200)
  {
  width = width-difference;
  document.getElementById("img1").style.width=width;
@@ -41,4 +42,4 @@
  }
  
  }
-CON6.png
+ 
