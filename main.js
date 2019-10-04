@@ -1,5 +1,5 @@
 var width=1200;
-var height=1000;
+
  var difference=2;
  var interveralID =0;
  //document.getElementById("img1").style.width=width;
