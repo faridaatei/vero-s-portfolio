@@ -135,44 +135,92 @@ margin-left: 50px;
 }
 
 .currentwork{
-  background-color: red;
-  width:100%;
-  height: 150%;
+ /* background-color: red;*/
+  width:1500px;
+  height: 680px;
 
 } 
 
-.currentworkp{
-  font-size: 60px;
+.currentwork1{
+ /* background-color: green;*/
+  width:425px;
+  height: 550px;
   position: relative;
-  top: -55%;
+  top: 39px;
+  left: 15px;
+  background-image: url("images/vero2.jpg");
+  background-color: #cccccc;
+  /*height: 500px;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ /* position: relative;*/
+    
+}
+
+.currentwork2{
+  background-color: yellow;
+  width:425px;
+  height: 550px;
+  position: relative;
+  top: -512px;
+  left: 462px;
+  background-image: url("images/vero2.jpg");
+  background-color: #cccccc;
+  /*height: 500px;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+   
+
+}
+
+.currentwork3{
+ /* background-color: orange;*/
+  width:425px;
+  height: 550px;
+  position: relative;
+  top: -1062px;
+  left: 908px;
+  background-image: url("images/vero2.jpg");
+  background-color: #cccccc;
+  /*height: 500px;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.currentworkp p{
+  font-size: 40px;
+  position: relative;
+  top: 20px;
   text-align: center;
+  right: 50%;
 
 }
 
-.currentworkimg1 {
-  background-color: blue;
-  width:100%;
-  height:50%;
-  position: relative;
-  top: -50%;
+.circle {
+   /*background-image: url("images/vero2.jpg");*/
+  height: 50px;
+  width: 50px;
+  background-color:#af62d6;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 14px;
+   border: 4px solid #ffdb28;
+
+  
 
 }
 
-.currentworkimg2 {
-  background-color: green;
-  width:100%;
-  height:50%;
-   position: relative;
-  top: -48%;
 
-}
 
-.currentworkimg1 img {
- max-width: 100%;
-max-height: 100%;
-object-fit: contain;
+
 
  
-}
+
 
 
